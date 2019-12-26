@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XMDeviceMonitor.h"
 
 FOUNDATION_EXPORT double XMDeviceMonitorVersionNumber;
 FOUNDATION_EXPORT const unsigned char XMDeviceMonitorVersionString[];

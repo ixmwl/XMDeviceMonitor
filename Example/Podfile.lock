@@ -1,5 +1,5 @@
 PODS:
-  - XMDeviceMonitor (0.1.0)
+  - XMDeviceMonitor (1.0.0)
 
 DEPENDENCIES:
   - XMDeviceMonitor (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  XMDeviceMonitor: 220a263e91c2f6c6d066f312475d69e877c3ce09
+  XMDeviceMonitor: c08751fc4977f9e78d69b231312c3d912b1e0eb5
 
 PODFILE CHECKSUM: 597d60e02edeb622b401eb2557352e8045c23641
 

@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031B5C329573A29C7A44054DCD452E0C /* XMDeviceMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = D87F068DD567A93B16D8FA3D54665879 /* XMDeviceMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		081AE71E58BE50F69CB905FAF834CB65 /* Pods-XMDeviceMonitor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D289813682E04C3881804E2D2D87FF48 /* Pods-XMDeviceMonitor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21A3ED8088EE4A42A2F961DC9C25F2AC /* XMDeviceMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BE575B6573DB2904C5692F9D45F6AF /* XMDeviceMonitor-dummy.m */; };
 		537546CA81E97848B46D705A52C35D02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5943316578849DA1294025B8CA7C0DC9 /* Pods-XMDeviceMonitor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F28BDC37DA8B7CE92CB225DCB25E5A /* Pods-XMDeviceMonitor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EF104923A259C189FB7DC173F8BBE30 /* XMDeviceMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB449EC3FB7ECB6F0DB4A533B0C3C65C /* XMDeviceMonitor-dummy.m */; };
 		6DA1CB1C1163E9FCC980A13917B0A484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6E39BBF3B094BB1B7134E355DF9BCBC7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B9EFFD75F8346B1DCBAABF08B90CE8 /* ReplaceMe.m */; };
 		7989AAD898678F5D05777895ACB3450F /* Pods-XMDeviceMonitor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F6B9DEBBE8C98FFB9AD88030D1A450 /* Pods-XMDeviceMonitor_Tests-dummy.m */; };
 		8E9B48D11C7E23CC4145E92D0088E043 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8FFBDF426BD2996B0EB69B10150F8F1B /* XMDeviceMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCBEA53219469A0275DB2687E90D68C0 /* XMDeviceMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9063B5B9F3E374B6C3F0C9255AD78713 /* Pods-XMDeviceMonitor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA4D19BAE469B0F24DE65EF034D3690 /* Pods-XMDeviceMonitor_Example-dummy.m */; };
+		E4ECAC26455FC3EA36CBB8318694C97C /* XMDeviceMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B370A9FD2733F3FBAC0159B6E6BC75 /* XMDeviceMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1A493F813F3BEA055E4F93246D4A376 /* XMDeviceMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 13921B7DD405F6440939EFFC7D620216 /* XMDeviceMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,17 +32,17 @@
 
 /* Begin PBXFileReference section */
 		04840AD3AB964D7F570A7A167908680A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09BE575B6573DB2904C5692F9D45F6AF /* XMDeviceMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMDeviceMonitor-dummy.m"; sourceTree = "<group>"; };
+		0C89024A5BD2EAC2BC021A0B4644528C /* XMDeviceMonitor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMDeviceMonitor.xcconfig; sourceTree = "<group>"; };
+		13921B7DD405F6440939EFFC7D620216 /* XMDeviceMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMDeviceMonitor.m; path = XMDeviceMonitor/Classes/XMDeviceMonitor.m; sourceTree = "<group>"; };
 		1D4ED3783CC57E43CD4E412CF05E9D79 /* Pods-XMDeviceMonitor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMDeviceMonitor_Tests-resources.sh"; sourceTree = "<group>"; };
-		213532872C7D64CE01FCF4BE9B73FC35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		254A32CFABDDE78A75A4FB6CC4A3AB0E /* Pods-XMDeviceMonitor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMDeviceMonitor_Example-resources.sh"; sourceTree = "<group>"; };
-		29B9EFFD75F8346B1DCBAABF08B90CE8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMDeviceMonitor/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		2D57092D24074C7E912FABA894B96256 /* Pods-XMDeviceMonitor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMDeviceMonitor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		349E895743F4A01681664BFEF35FD6D4 /* Pods-XMDeviceMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMDeviceMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3594693661921D1D24C277A6B3F56E4F /* Pods-XMDeviceMonitor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMDeviceMonitor_Example-frameworks.sh"; sourceTree = "<group>"; };
 		36F28BDC37DA8B7CE92CB225DCB25E5A /* Pods-XMDeviceMonitor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMDeviceMonitor_Example-umbrella.h"; sourceTree = "<group>"; };
+		37D543D28038D8DED649D799DB95FDDC /* XMDeviceMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XMDeviceMonitor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F5602422DD9183941290D7340242ACB /* Pods-XMDeviceMonitor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMDeviceMonitor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		41C3254AF67BF6D8D27ED5E780A96B03 /* Pods-XMDeviceMonitor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMDeviceMonitor_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		469E6DC2800C1D5AE2F7766FA33DCCEF /* Pods_XMDeviceMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMDeviceMonitor_Tests.framework; path = "Pods-XMDeviceMonitor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,22 +50,23 @@
 		478D9383791213F6CA4343C009B42CBE /* Pods-XMDeviceMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMDeviceMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4989CDD3700911A2159A927F538B6C19 /* Pods-XMDeviceMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMDeviceMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		56E2286E4E4E2AE359B8B521DFA2DB3F /* Pods-XMDeviceMonitor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMDeviceMonitor_Tests.modulemap"; sourceTree = "<group>"; };
-		5D08671438B08D6B51D470D16C727249 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6A8C53D877FFDC9031184593C7E7E71B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6F0DE65C8831D21591113F35CD5124DF /* XMDeviceMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMDeviceMonitor.modulemap; sourceTree = "<group>"; };
+		6FC037E368780A4371144AA0FC0E3220 /* XMDeviceMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMDeviceMonitor.modulemap; sourceTree = "<group>"; };
 		82AD99B5E1E19514CC56CCAC2E38F6EC /* XMDeviceMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMDeviceMonitor.framework; path = XMDeviceMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E003859B54948CD295E33A2BA53753 /* Pods-XMDeviceMonitor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMDeviceMonitor_Example.modulemap"; sourceTree = "<group>"; };
-		8B9054D67A130671FCDB704A0FF8AEB3 /* XMDeviceMonitor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMDeviceMonitor.xcconfig; sourceTree = "<group>"; };
-		8D3E8B19B3CD8D3DBFBC69AEC7A7EDD5 /* XMDeviceMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XMDeviceMonitor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8E10E35BC83BE318BDB2779B2FD55EA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD28F417CEEEB2A9EE542399B1C2C32 /* Pods-XMDeviceMonitor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMDeviceMonitor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9C7CA3C33A6B64EEE9C4A854B296EF4E /* XMDeviceMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMDeviceMonitor-prefix.pch"; sourceTree = "<group>"; };
 		A10436806A79E439AB31F396CD6DD4F3 /* Pods-XMDeviceMonitor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMDeviceMonitor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A2694E5C76859DAB163AB93A5E61F5F2 /* Pods_XMDeviceMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMDeviceMonitor_Example.framework; path = "Pods-XMDeviceMonitor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA4D19BAE469B0F24DE65EF034D3690 /* Pods-XMDeviceMonitor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMDeviceMonitor_Example-dummy.m"; sourceTree = "<group>"; };
+		AE90CCCD24AE6611FB37E4239C475495 /* XMDeviceMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMDeviceMonitor-prefix.pch"; sourceTree = "<group>"; };
+		B4B370A9FD2733F3FBAC0159B6E6BC75 /* XMDeviceMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMDeviceMonitor-umbrella.h"; sourceTree = "<group>"; };
 		D289813682E04C3881804E2D2D87FF48 /* Pods-XMDeviceMonitor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMDeviceMonitor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D87F068DD567A93B16D8FA3D54665879 /* XMDeviceMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMDeviceMonitor.h; path = XMDeviceMonitor/Classes/XMDeviceMonitor.h; sourceTree = "<group>"; };
+		D8C2233DE02CABBD6E90C0150120FC58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		DB09390ECB28936B7FE2B29021F404EA /* Pods-XMDeviceMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMDeviceMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DCBEA53219469A0275DB2687E90D68C0 /* XMDeviceMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMDeviceMonitor-umbrella.h"; sourceTree = "<group>"; };
+		E92518C677C9CE91F5D3B600FAD177EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F2AD3B48B8FF4CFDB8BB95B470E20E71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB449EC3FB7ECB6F0DB4A533B0C3C65C /* XMDeviceMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMDeviceMonitor-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18DBB7DE8E6032D6607ABA0487428A43 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AD3B48B8FF4CFDB8BB95B470E20E71 /* Info.plist */,
+				6FC037E368780A4371144AA0FC0E3220 /* XMDeviceMonitor.modulemap */,
+				0C89024A5BD2EAC2BC021A0B4644528C /* XMDeviceMonitor.xcconfig */,
+				FB449EC3FB7ECB6F0DB4A533B0C3C65C /* XMDeviceMonitor-dummy.m */,
+				AE90CCCD24AE6611FB37E4239C475495 /* XMDeviceMonitor-prefix.pch */,
+				B4B370A9FD2733F3FBAC0159B6E6BC75 /* XMDeviceMonitor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XMDeviceMonitor";
+			sourceTree = "<group>";
+		};
 		239977F68C5344AFA8FB670EBA41D6DF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +136,18 @@
 			);
 			name = "Pods-XMDeviceMonitor_Tests";
 			path = "Target Support Files/Pods-XMDeviceMonitor_Tests";
+			sourceTree = "<group>";
+		};
+		3B343B0FC71D32B93B722673C157B908 /* XMDeviceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				D87F068DD567A93B16D8FA3D54665879 /* XMDeviceMonitor.h */,
+				13921B7DD405F6440939EFFC7D620216 /* XMDeviceMonitor.m */,
+				5D7FAB4E8B4EACDD83A587251DADCFB8 /* Pod */,
+				18DBB7DE8E6032D6607ABA0487428A43 /* Support Files */,
+			);
+			name = XMDeviceMonitor;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4028F1A4214905C8C0BF6AE84A3A5D15 /* Products */ = {
@@ -150,24 +178,20 @@
 			path = "Target Support Files/Pods-XMDeviceMonitor_Example";
 			sourceTree = "<group>";
 		};
-		7B8589741D2F396BBF8F9234E28BF478 /* Support Files */ = {
+		5D7FAB4E8B4EACDD83A587251DADCFB8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6A8C53D877FFDC9031184593C7E7E71B /* Info.plist */,
-				6F0DE65C8831D21591113F35CD5124DF /* XMDeviceMonitor.modulemap */,
-				8B9054D67A130671FCDB704A0FF8AEB3 /* XMDeviceMonitor.xcconfig */,
-				09BE575B6573DB2904C5692F9D45F6AF /* XMDeviceMonitor-dummy.m */,
-				9C7CA3C33A6B64EEE9C4A854B296EF4E /* XMDeviceMonitor-prefix.pch */,
-				DCBEA53219469A0275DB2687E90D68C0 /* XMDeviceMonitor-umbrella.h */,
+				D8C2233DE02CABBD6E90C0150120FC58 /* LICENSE */,
+				E92518C677C9CE91F5D3B600FAD177EC /* README.md */,
+				37D543D28038D8DED649D799DB95FDDC /* XMDeviceMonitor.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XMDeviceMonitor";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		7EE9611C41D83166D0F32868BE8C56D9 /* Development Pods */ = {
+		BB6E787E8F8D2BBE2B20309D5D8452AD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8C562BDEDE9E3C55CD22A719461CFF8 /* XMDeviceMonitor */,
+				3B343B0FC71D32B93B722673C157B908 /* XMDeviceMonitor */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -184,7 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				7EE9611C41D83166D0F32868BE8C56D9 /* Development Pods */,
+				BB6E787E8F8D2BBE2B20309D5D8452AD /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4028F1A4214905C8C0BF6AE84A3A5D15 /* Products */,
 				239977F68C5344AFA8FB670EBA41D6DF /* Targets Support Files */,
@@ -199,35 +223,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F3F574AEF75AF7D2933D0C15824D23E7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5D08671438B08D6B51D470D16C727249 /* LICENSE */,
-				213532872C7D64CE01FCF4BE9B73FC35 /* README.md */,
-				8D3E8B19B3CD8D3DBFBC69AEC7A7EDD5 /* XMDeviceMonitor.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F8C562BDEDE9E3C55CD22A719461CFF8 /* XMDeviceMonitor */ = {
-			isa = PBXGroup;
-			children = (
-				29B9EFFD75F8346B1DCBAABF08B90CE8 /* ReplaceMe.m */,
-				F3F574AEF75AF7D2933D0C15824D23E7 /* Pod */,
-				7B8589741D2F396BBF8F9234E28BF478 /* Support Files */,
-			);
-			name = XMDeviceMonitor;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1F2AD5F47AE849711A07E203D194AEE8 /* Headers */ = {
+		2E5092062E716936333FEE1CECE39428 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FFBDF426BD2996B0EB69B10150F8F1B /* XMDeviceMonitor-umbrella.h in Headers */,
+				E4ECAC26455FC3EA36CBB8318694C97C /* XMDeviceMonitor-umbrella.h in Headers */,
+				031B5C329573A29C7A44054DCD452E0C /* XMDeviceMonitor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +276,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16FA23EE20D20A693C3206C884A08ABE /* Build configuration list for PBXNativeTarget "XMDeviceMonitor" */;
 			buildPhases = (
-				1F2AD5F47AE849711A07E203D194AEE8 /* Headers */,
-				08BDD1C53B010EAFD79DE576101D27EF /* Sources */,
+				2E5092062E716936333FEE1CECE39428 /* Headers */,
+				4C3D8DE4AE327F8CFB87C175CA501459 /* Sources */,
 				4624B378922A30617DCB04C717F45BB4 /* Frameworks */,
 				D83D2A540E0FA5B4CF157F99926EB5A0 /* Resources */,
 			);
@@ -358,12 +362,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08BDD1C53B010EAFD79DE576101D27EF /* Sources */ = {
+		4C3D8DE4AE327F8CFB87C175CA501459 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E39BBF3B094BB1B7134E355DF9BCBC7 /* ReplaceMe.m in Sources */,
-				21A3ED8088EE4A42A2F961DC9C25F2AC /* XMDeviceMonitor-dummy.m in Sources */,
+				5EF104923A259C189FB7DC173F8BBE30 /* XMDeviceMonitor-dummy.m in Sources */,
+				F1A493F813F3BEA055E4F93246D4A376 /* XMDeviceMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,7 +528,7 @@
 		};
 		5D8CCADDEDDAE8BA83E847CDCF9AE32A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B9054D67A130671FCDB704A0FF8AEB3 /* XMDeviceMonitor.xcconfig */;
+			baseConfigurationReference = 0C89024A5BD2EAC2BC021A0B4644528C /* XMDeviceMonitor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -554,7 +558,7 @@
 		};
 		67BC803BB943987928AB100BE900CAC0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B9054D67A130671FCDB704A0FF8AEB3 /* XMDeviceMonitor.xcconfig */;
+			baseConfigurationReference = 0C89024A5BD2EAC2BC021A0B4644528C /* XMDeviceMonitor.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

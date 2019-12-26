@@ -1,8 +1,8 @@
 {
   "name": "XMDeviceMonitor",
-  "version": "0.1.0",
-  "summary": "A short description of XMDeviceMonitor.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "Monitor the rotation direction of equipment By CoreMotion Frame(通过CoreMotion框架，监控设备旋转方向)",
+  "description": "Monitor the rotation direction of equipment By CoreMotion Frame(通过CoreMotion框架，监控设备旋转方向)",
   "homepage": "https://github.com/ixmwl/XMDeviceMonitor",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/ixmwl/XMDeviceMonitor.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
