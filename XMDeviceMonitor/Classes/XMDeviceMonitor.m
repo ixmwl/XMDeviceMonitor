@@ -10,13 +10,13 @@
 #import <CoreMotion/CoreMotion.h>
 @interface XMDeviceMonitor () {
     
-    CMMotionManager *_motionManager; //
+    CMMotionManager *_motionManager; // 陀螺仪、加速计和磁力计的数据获取均依赖于CMMotionManager
     UIInterfaceOrientation _direction; // 屏幕方向
     
 }
 @end
 
-//sensitive 灵敏度
+/** sensitive 灵敏度 */
 static const float sensitive = 0.77;
 
 @implementation XMDeviceMonitor

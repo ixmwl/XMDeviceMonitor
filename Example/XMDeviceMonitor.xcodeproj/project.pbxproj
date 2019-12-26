@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		417B43E023B47F10009D60FE /* XMNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B43DF23B47F10009D60FE /* XMNavigationController.m */; };
+		417B43E323B47F2B009D60FE /* XMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B43E223B47F2B009D60FE /* XMTabBarController.m */; };
+		417B43E723B48036009D60FE /* XMRoateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B43E523B48036009D60FE /* XMRoateViewController.m */; };
+		417B43E823B48036009D60FE /* XMRoateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417B43E623B48036009D60FE /* XMRoateViewController.xib */; };
+		417B43EC23B48113009D60FE /* XMTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B43EA23B48113009D60FE /* XMTestViewController.m */; };
+		417B43ED23B48113009D60FE /* XMTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417B43EB23B48113009D60FE /* XMTestViewController.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		417B43DE23B47F10009D60FE /* XMNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMNavigationController.h; sourceTree = "<group>"; };
+		417B43DF23B47F10009D60FE /* XMNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMNavigationController.m; sourceTree = "<group>"; };
+		417B43E123B47F2B009D60FE /* XMTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XMTabBarController.h; path = /Users/liucan/Documents/GitHub/XMDeviceMonitor/Example/XMDeviceMonitor/XMTabBarController.h; sourceTree = "<absolute>"; };
+		417B43E223B47F2B009D60FE /* XMTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XMTabBarController.m; path = /Users/liucan/Documents/GitHub/XMDeviceMonitor/Example/XMDeviceMonitor/XMTabBarController.m; sourceTree = "<absolute>"; };
+		417B43E423B48036009D60FE /* XMRoateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMRoateViewController.h; sourceTree = "<group>"; };
+		417B43E523B48036009D60FE /* XMRoateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMRoateViewController.m; sourceTree = "<group>"; };
+		417B43E623B48036009D60FE /* XMRoateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XMRoateViewController.xib; sourceTree = "<group>"; };
+		417B43E923B48113009D60FE /* XMTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMTestViewController.h; sourceTree = "<group>"; };
+		417B43EA23B48113009D60FE /* XMTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTestViewController.m; sourceTree = "<group>"; };
+		417B43EB23B48113009D60FE /* XMTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XMTestViewController.xib; sourceTree = "<group>"; };
 		4974962DEAF18EF0D20D5CC0 /* Pods_XMDeviceMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMDeviceMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFE6C0AD8A73F6D27D6FB73 /* Pods_XMDeviceMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMDeviceMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* XMDeviceMonitor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMDeviceMonitor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +156,16 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				417B43DE23B47F10009D60FE /* XMNavigationController.h */,
+				417B43DF23B47F10009D60FE /* XMNavigationController.m */,
+				417B43E123B47F2B009D60FE /* XMTabBarController.h */,
+				417B43E223B47F2B009D60FE /* XMTabBarController.m */,
+				417B43E423B48036009D60FE /* XMRoateViewController.h */,
+				417B43E523B48036009D60FE /* XMRoateViewController.m */,
+				417B43E623B48036009D60FE /* XMRoateViewController.xib */,
+				417B43E923B48113009D60FE /* XMTestViewController.h */,
+				417B43EA23B48113009D60FE /* XMTestViewController.m */,
+				417B43EB23B48113009D60FE /* XMTestViewController.xib */,
 			);
 			name = "Example for XMDeviceMonitor";
 			path = XMDeviceMonitor;
@@ -250,6 +276,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ixmwl;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = YFYPP7N5P2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -281,6 +310,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				417B43ED23B48113009D60FE /* XMTestViewController.xib in Resources */,
+				417B43E823B48036009D60FE /* XMRoateViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -428,6 +459,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417B43EC23B48113009D60FE /* XMTestViewController.m in Sources */,
+				417B43E023B47F10009D60FE /* XMNavigationController.m in Sources */,
+				417B43E723B48036009D60FE /* XMRoateViewController.m in Sources */,
+				417B43E323B47F2B009D60FE /* XMTabBarController.m in Sources */,
 				6003F59E195388D20070C39A /* XMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -558,6 +593,7 @@
 			baseConfigurationReference = 7F140A94DA034FA459910D53 /* Pods-XMDeviceMonitor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YFYPP7N5P2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMDeviceMonitor/XMDeviceMonitor-Prefix.pch";
 				INFOPLIST_FILE = "XMDeviceMonitor/XMDeviceMonitor-Info.plist";
@@ -574,6 +610,7 @@
 			baseConfigurationReference = B8EAEAC4BDEBFA2EF00A8E02 /* Pods-XMDeviceMonitor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YFYPP7N5P2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XMDeviceMonitor/XMDeviceMonitor-Prefix.pch";
 				INFOPLIST_FILE = "XMDeviceMonitor/XMDeviceMonitor-Info.plist";
