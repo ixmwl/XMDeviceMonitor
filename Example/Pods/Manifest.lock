@@ -1,0 +1,16 @@
+PODS:
+  - XMDeviceMonitor (0.1.0)
+
+DEPENDENCIES:
+  - XMDeviceMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  XMDeviceMonitor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XMDeviceMonitor: 220a263e91c2f6c6d066f312475d69e877c3ce09
+
+PODFILE CHECKSUM: 597d60e02edeb622b401eb2557352e8045c23641
+
+COCOAPODS: 1.4.0

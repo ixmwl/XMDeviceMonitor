@@ -1,0 +1,6 @@
+framework module Pods_XMDeviceMonitor_Example {
+  umbrella header "Pods-XMDeviceMonitor_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

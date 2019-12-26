@@ -1,0 +1,6 @@
+framework module XMDeviceMonitor {
+  umbrella header "XMDeviceMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}
