@@ -4,6 +4,7 @@
 //
 //  Created by 刘灿 on 2019/12/26.
 //  Copyright © 2019 ixmwl. All rights reserved.
+
 //  此时如果控制中心屏幕被锁定，只实现
 // //是否自动旋转
 // -(BOOL)shouldAutorotate{
@@ -23,7 +24,6 @@
 
 #import "XMTestViewController.h"
 #import "XMDeviceMonitor.h"
-
 
 @interface XMTestViewController ()<XMDeviceMonitorDelegate>
 {

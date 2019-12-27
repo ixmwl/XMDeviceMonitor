@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                        Monitor the rotation direction of equipment By CoreMotion Frame(通过CoreMotion框架，监控设备旋转方向)
+  Monitor the rotation direction of equipment By CoreMotion Frame(通过CoreMotion框架，监控设备旋转方向)
                        DESC
 
   s.homepage         = 'https://github.com/ixmwl/XMDeviceMonitor'
